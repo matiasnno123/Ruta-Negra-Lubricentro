@@ -1,0 +1,405 @@
+ body{
+            background-color: #373737;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .h1conamarillo, .h2conamarillo { color: #f1c40f; }
+        h1, h2, p, ul { color: #ffffff; }
+        .h1congris { color: #232323; }
+        .navbar .estoy { color: #f1c40f !important; }
+
+        h1, .h1conamarillo { 
+            font-size: 64px; 
+            font-weight: 800; 
+        }
+        h2 { 
+            font-size: 36px; 
+            font-weight: 600; 
+        }
+        
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #373737;
+    height: 120px;
+    padding: 0 60px;
+}
+
+
+.navbar a:first-child { 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar .logo {
+    height: 120px;
+    width: auto;
+}
+.marca {
+    display: none; 
+}
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 45px;
+}
+
+.nav-links li {
+    margin: 0; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600; 
+}
+
+
+.navbar .estoy {
+    color: #f1c40f;
+}
+
+
+.menu-hamburguesa {
+    display: none;
+}
+
+.banner{
+    background-image: url('/imagenes/Productos.png');
+    background-size: cover;
+    height: 60rem;
+    background-position: end;
+}
+.content-banner{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 20rem 0;
+}
+
+.btn{
+    background-color: #f1c40f;
+    color: #000000;
+    width: 167px; 
+    height: 40px;
+    border-radius: 16px; 
+    font-size: 16px;
+    font-weight: 600;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    margin-left: 95px;
+    margin-top: 15px;
+}
+
+.categorias-seccion {
+    background-color: #373737; 
+    padding: 80px 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-categorias {
+    color: #f1c40f; 
+    font-size: 64px; 
+    font-weight: 800;
+    margin-bottom: 50px; 
+    letter-spacing: 2px; 
+}
+.categorias-lista {
+    display: flex; 
+    justify-content: center; 
+    gap: 105px;
+    flex-shrink: 1;
+    max-width: 1280px; 
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+.categoria-card {
+    background-color: #373737;
+    flex: 0 0 350px; 
+    width: 350px; 
+    height: 375px; 
+    padding: 0; 
+    padding-bottom: 10px;
+    border-radius: 45px; 
+    box-shadow: 0 0 0 5px #f1c40f; 
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.card-imagen-contenedor {
+    width: 100%; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px 45px 0 0; 
+}
+
+.card-imagen {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain; 
+}
+
+.card-titulo {
+    color: #ffffff; 
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 15px;
+}
+.destacado-seccion {
+    background-color: #f1c40f; 
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.titulo-destacado {
+    color: #373737; 
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.destacado-card {
+   background-color: #373737; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 16px; 
+    padding: 10px; 
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    height: 100%; 
+}
+.row {
+    justify-content: center;
+}
+
+.imagen-producto-cont {
+  background-color: #373737;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px 16px 0 0; 
+    margin: -20px -20px 20px -20px;
+}
+
+.card-img-producto {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+padding: 0; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    flex-grow: 1; 
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+
+.btn-mas {
+    margin-top: auto; 
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #f1c40f !important; 
+    color: #000000 !important; 
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    width: 101px;
+    height: 33px;
+}
+.footer-custom {
+    background-color: #232323 !important; 
+    padding: 30px 60px !important; 
+}
+
+.footer-button {
+    background-color: #f1c40f;
+    color: #000000; 
+    padding: 15px 35px;
+    border-radius: 16px; 
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer-button:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+.footer-icon {
+    display: block;
+    font-size: 2.2rem; 
+    color: #f1c40f; 
+}
+ 
+.contenido-marcas {
+    background-color: #ffffff; 
+    padding: 200px 100px; 
+}
+
+.contenido-marcas .titulo-marcas {
+    color: #000000; 
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.carousel-inner .marca-img {
+    width: 150%; 
+    max-width: 280px;
+    height: auto;
+    max-height: 150px; 
+    object-fit: contain;
+    padding: 15px;
+    margin: 45px 0;
+    filter: none; 
+}
+
+
+        @media screen and (max-width: 992px) {
+   
+            h1, .h1conamarillo { font-size: 48px; }
+            h2 { font-size: 28px; }
+            .nav-links a { font-size: 30px; } 
+            .employee-text-felicitacion p { font-size: 18px; }
+            .containerpagina h2 { font-size: 18px; }
+
+    .navbar {
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        height: 80px; 
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.95); 
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-in-out; 
+        z-index: 99; 
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+    .nav-links a {
+        font-size: 32px; 
+    }
+
+    .nav-links.active {
+        transform: translateX(0); 
+    }
+
+    .menu-hamburguesa {
+        display: block; 
+        background-color: #f1c40f; 
+        border: none;
+        border-radius: 50%; 
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        padding: 10px;
+        position: relative; 
+        z-index: 100; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .menu-hamburguesa div {
+        width: 100%;
+        height: 4px;
+        background-color: #333; 
+        margin: 6px auto;
+        border-radius: 2px;
+    }
+
+    .containerpagina {
+        width: 90%; 
+        height: auto;
+        padding: 20px;
+    }
+
+
+            .content-banner { padding: 10rem 0; text-align: center; }
+            .containerpagina { width: 90%; }
+        }
+    .footer-custom {
+        text-align: center;
+        padding: 20px 15px !important; 
+    }
+    .footer-button {
+        max-width: max-content;
+        margin-bottom: 20px;
+    }
+        .contenido-marcas .titulo-marcas {
+        font-size: 38px;
+    }
+    .carousel-inner .marca-img {
+        width: 33.33%;
+        max-width: 150px;
+    }
+        
+        @media (max-width: 767.98px) {
+            h1, .h1conamarillo { font-size: 38px; }
+            h2 { font-size: 24px; }
+        }
+        @media screen and (max-width: 600px) {
+    .carousel-inner .marca-img {
+        width: 50%;
+        max-width: 120px;
+        padding: 10px;
+    }
+}
