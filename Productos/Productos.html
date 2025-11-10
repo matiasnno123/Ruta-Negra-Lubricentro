@@ -25,11 +25,11 @@
         </button>
 
         <ul class="nav-links">
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="" class="estoy">Productos</a></li>
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/servicios.html">Servicios</a></li>
+            <li><a href="Productos.html" class="estoy">Productos</a></li>
+            <li><a href="/Nosotros/Nosotros.html">Nosotros</a></li>
+            <li><a href="/Contacto/Contacto.html">Contacto</a></li>
             <li><a href="/Postulate/Postulate.html">Postulate</a></li>
         </ul>
     </div>
@@ -41,7 +41,7 @@
   </h1>
   <h2>Encuentra el lubricante<br>
   perfecto para tu vehiculo</h2>
-  <a href="" class="btn">Adquirir ahora</a>
+  <a href="/Contacto/Contacto.html" class="btn-adquirir">Adquirir ahora</a>
   </div>
 </section>
 <br>
@@ -88,12 +88,12 @@
                         <img src="/imagenes/quartz.png" class="card-img-producto" alt="Aceite QUARTZ sintetico 4L">
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title">Aceite QUARTZ sintetico 4L</h2>
+                        <h2 class="card-title">Aceite QUARTZ<br>sintetico 4L</h2>
                         <p class="card-text">Desarrollado para satisfacer<br>
                            los requerimientos más estrictos<br>
                             de motores nafeteros y Diesel de<br>
                              vehículos livianos.</p>
-                        <a href="#" class="btn btn-warning btn-mas">Más</a>
+                        <a href="/Contacto/Contacto.html" class="btn btn-warning btn-mas">Más</a>
                     </div>
                 </div>
             </div>
@@ -104,12 +104,12 @@
                         <img src="/imagenes/aceitemoto.png" class="card-img-producto" alt="Aceite Semisintetico Mobil 1L">
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title">Aceite Semisintetico Mobil 1L</h2>
+                        <h2 class="card-title">Aceite Semisintetico<br>Mobil 1L</h2>
                         <p class="card-text">Proporciona una buena limpieza<br>
                            del motor, una buena protección<br>
                             contra el desgaste y protección<br>
                              contra la corrosión.</p>
-                        <a href="#" class="btn btn-warning btn-mas">Más</a>
+                        <a href="/Contacto/Contacto.html" class="btn btn-warning btn-mas">Más</a>
                     </div>
                 </div>
             </div>
@@ -120,12 +120,12 @@
                         <img src="/imagenes/castrol.png" class="card-img-producto" alt="Aceite Castrol sintetico 1L">
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title">Aceite Castrol sintetico 1L</h2>
+                        <h2 class="card-title">Aceite Castrol<br>sintetico 1L</h2>
                         <p class="card-text">Ayuda a mantener el motor<br>
                            limpio, previniendo la acumulación<br>
                             de depósitos y lodos que pueden<br>
                           afectar el rendimiento.</p>
-                        <a href="#" class="btn btn-warning btn-mas">Más</a>
+                        <a href="/Contacto/Contacto.html" class="btn btn-warning btn-mas">Más</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@
 <footer class="d-flex justify-content-between align-items-center text-light py-4 px-5 footer-custom">
     <p class="m-0 text-white footer-text">© 2025 RUTA NEGRA LUBRICENTRO</p>
 
-    <button class="btn footer-button">Contáctanos</button>
+    <button id="contactoboton" class="btn footer-button">Contáctanos</button>
 
     <div class="d-flex footer-icons">
         <a href="#" class="text-white me-3">
@@ -182,6 +182,9 @@
             const isExpanded = navLinks.classList.contains('active');
             menuButton.setAttribute('aria-expanded', isExpanded);
         });
+            document.getElementById('contactoboton').addEventListener('click', function() {
+  window.location.href = '/Contacto/Contacto.html';
+});
     </script> 
 </body>
 </html>

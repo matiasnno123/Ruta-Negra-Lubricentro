@@ -1,0 +1,165 @@
+body {
+      background-color: #373737;
+      color: white;
+      font-family: 'Montserrat';
+}
+        .nav-links a {
+            font-size: 24px; 
+            font-weight: 600; 
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            background-color: #373737;
+            height: 120px;
+            padding: 0 60px;
+        }
+        .navbar a:first-child { 
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .navbar .logo {
+            height: 120px;
+            width: auto;
+        }
+        .marca {
+            display: none; 
+        }
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex; 
+            gap: 45px;
+        }
+.nav-links li {
+    margin: 0; 
+}
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600; 
+}
+.menu-hamburguesa {
+    display: none; 
+}
+.navbar .estoy { color: #f1c40f !important; }
+.banner{
+  background-image: url('img/rutanegra.jpg');
+  background-size: cover;
+  height: 60rem;
+  background-position: center;
+  z-index: 1;
+}
+.image.wrapper{ height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  color: #ffffff;
+  text-align: center;
+}
+.section {
+      background-color: #232323;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 20px 0;
+      text-align: center;
+    }
+.footer-custom {
+    background-color: #232323 !important;
+    padding: 30px 60px !important;
+}
+
+.footer-button {
+    background-color: #f1c40f !important;
+    color: #000000 !important; 
+    padding: 15px 35px !important;
+    border-radius: 16px !important; 
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer-button:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+.footer-icon {
+    display: block;
+    font-size: 2.2rem; 
+    color: #f1c40f; 
+}
+  footer p {
+            font-size: 0.9rem; 
+        }
+
+@media (max-width: 768px) {
+  .navbar {
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        height: 80px; 
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.95); 
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-in-out; 
+        z-index: 99; 
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+    .nav-links a {
+        font-size: 32px; 
+    }
+
+    .nav-links.active {
+        transform: translateX(0); 
+    }
+
+    .menu-hamburguesa {
+        display: block; 
+        background-color: #f1c40f; 
+        border: none;
+        border-radius: 50%; 
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        padding: 10px;
+        position: relative; 
+        z-index: 100; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .menu-hamburguesa div {
+        width: 100%;
+        height: 4px;
+        background-color: #333; 
+        margin: 6px auto;
+        border-radius: 2px;
+    }
+
+}
