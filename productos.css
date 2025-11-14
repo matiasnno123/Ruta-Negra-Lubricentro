@@ -7,7 +7,6 @@ body{
     .h1congris { 
         margin-top: 15px;
         color: #232323;}
-    .navbar .estoy { color: #f1c40f !important; }
 h1{
     font-size: 36px;
     font-weight: 590;
@@ -81,19 +80,7 @@ h4{
     letter-spacing: 1px;
     line-height: 1.2em;
 }
-.btn{
-    width: 213px;
-    height: 51px;
-    border: 2px solid #f1c40f;
-    color: #f1c40f;
-    font-size: 16px;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    align-items: center;
-    border-radius: 16px;
-}
+
 .btn-adquirir{
     background-color: #f1c40f !important;
     color: #000000 !important;
@@ -236,8 +223,8 @@ h4{
     justify-content: flex-end;
     align-items: center;
 }
-@media (max-width:768px) {
-        .nav-links a { font-size: 30px; }
+@media (max-width:992px) {
+    .nav-links a { font-size: 30px; }
     .navbar .logo {
     height: 100px;
     width: 250px;
@@ -339,9 +326,7 @@ h4{
         width: 247px;
         height: fit-content;
     }
-    .btn-adquirir{
-        width: 155px !important;
-    }
+
     .btn-mas{
         display: flex;
         width: 60px;
@@ -371,12 +356,23 @@ h4{
         align-items: center;
         margin-bottom: 15px;
     }
+    .footerbot{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
     .footer-button{
-        align-items: center !important;
-        text-align: center !important;
+        display: flex;
+        background-color: #f1c40f;
+        color: #000000;
+        width: 150px !important;
+        height: 30px;
         font-size: 12px !important;
-        width: 115px !important;
-        margin: 0 auto !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .social-icons{
         margin-top: 15px;
@@ -384,5 +380,4 @@ h4{
         gap: 30px;
         margin-bottom: 15px;
     }
-
 }
