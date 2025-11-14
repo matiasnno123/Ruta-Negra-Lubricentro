@@ -68,7 +68,7 @@ h4{
 }
 
 .banner{
-    background-image: url('../imagenes/image1.png');
+    background-image: url('imagenes/image1.png');
     height: 35rem;
     background-size: cover;
     background-position: center;
@@ -384,4 +384,5 @@ h4{
         gap: 30px;
         margin-bottom: 15px;
     }
+
 }
