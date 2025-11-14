@@ -70,7 +70,7 @@ h4{
 }
 
 .banner{
-    background-image: url('../imagenes/trabajadores2.png');
+    background-image: url('imagenes/trabajadores2.png');
     height: 35rem;
     background-size: cover;
     background-position: center;
@@ -511,4 +511,5 @@ h4{
         gap: 30px;
         margin-bottom: 15px;
     }
+
 }
