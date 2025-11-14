@@ -1,0 +1,514 @@
+body{
+    background-color: #373737;
+    font-family: "Montserrat", sans-serif;
+}
+    .h1conamarillo, .h2conamarillo { color: #f1c40f; }
+    h1, h2, p, ul { color: #ffffff; }
+    .h1congris { 
+        margin-top: 15px;
+        color: #232323;}
+    .navbar .estoy { color: #f1c40f !important; }
+h1{
+    font-size: 36px;
+    font-weight: 590;
+}
+h2{
+    font-size: 20px;
+    font-weight: 490;
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #373737;
+    height: 120px;
+    padding: 0 60px;
+}
+
+
+.navbar a:first-child { 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar .logo {
+    height: 120px;
+    width: auto;
+}
+.navbar .estoy { color: #f1c40f !important; }
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 45px;
+}
+
+.nav-links li {
+    margin: 0; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.menu-hamburguesa {
+    display: none;
+}
+
+.banner{
+    background-image: url('../imagenes/trabajadores2.png');
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+}
+   .content-banner {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 12rem 0;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+
+.card{
+    background-color: #232323;
+    text-align: left;
+    border-radius: 16px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.img-card{
+    display: flex;
+    width: 88px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.h1conamarillo{
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card p{
+    margin: 0 auto;
+}
+.flecha{
+    width: 51px;
+}
+.btn{
+    width: 213px;
+    height: 51px;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+}
+.btn:hover{
+    background-color: #f1c40f !important;
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.flecha {
+    width: 51px;
+    height: 51px;
+    border-radius: 16px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.boton-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.img-beneficios{
+    width: 74.53px;
+    margin-top: 20px;
+    flex-shrink: 0;
+}
+.tipobene{
+    text-align: left;
+    margin: 0;
+    margin-left: 15px;
+    line-height: 1.2;
+}
+.alinear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.tipobenetext{
+    font-size: 18px;
+    text-align: center;
+}
+.partedenosotros{
+    margin-top: 20px;
+    background-color: #232323;
+    border-radius: 16px; 
+    text-align: center;
+}
+.empleadomes{
+    background-color: #f1c40f;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 35px;
+    padding-bottom: 65px;
+}
+
+.fondogris {
+    background-color: #373737;
+    width: 333px; 
+    height: 337px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 85px;
+    flex-shrink: 0; 
+}
+
+.emple {
+    background-color: #232323;
+    border-radius: 16px;
+    text-align: center; 
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.texto-empleado {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    flex-grow: 1; 
+
+}
+
+.MES {
+    display: block;
+    margin: 0; 
+    margin-bottom: 15px;
+    margin-left: -125px; 
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    font-size: 28px;
+    font-weight: 450;
+    color: #f1c40f;
+}
+
+.Felicitacion {
+    display: flex;
+    margin: 0 auto;
+    margin-left: -15px;
+    margin-top: 35px;
+    line-height: 1.5;
+    text-align: center; 
+    width: 100%; 
+    font-size: 18px;
+    font-weight: 400;
+}
+.rating {
+    color: #f1c40f; 
+    font-size: 1.5rem; 
+    display: flex;
+    margin-left: 125px;
+}
+.calificacion{
+    display: flex;
+    margin-left: 35px;
+}
+
+.footer-custom {
+    background-color: #232323 !important; 
+    padding: 20px 60px !important; 
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    align-items: center;
+}
+
+.footer-button {
+    background-color: #f1c40f;
+    color: #000000; 
+    padding: 15px 35px !important;
+    border-radius: 16px !important; 
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: none;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+}
+.footerbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+.footer-icon {
+    display: block;
+    font-size: 2.2rem; 
+    color: #f1c40f; 
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#modalEnvioExitoso .modal-content {
+    background-color: #373737; 
+    color: #ffffff; 
+    border-radius: 10px;
+    border: none;
+}
+
+#modalEnvioExitoso .modal-header {
+    background-color: #f1c40f; 
+    color: #373737; 
+    border-bottom: 1px solid #f1c40f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#modalEnvioExitoso .modal-header .modal-title {
+    font-weight: bold;
+}
+
+#modalEnvioExitoso .modal-header .btn-close {
+    filter: invert(1);
+}
+
+#modalEnvioExitoso .modal-body {
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+#modalEnvioExitoso .modal-footer {
+    border-top: none;
+    padding-bottom: 2rem;
+}
+
+#modalEnvioExitoso .modal-footer .btn-warning {
+    background-color: #ffc107; 
+    border-color: #ffc107;
+    color: #333333; 
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    transition: all 0.3s ease;
+}
+#modalEnvioExitoso .modal-footer .btn-warning:hover {
+    background-color: #e0a800; 
+    border-color: #e0a800;
+}
+.text-success{
+    color: #f1c40f !important;
+}
+
+
+@media (max-width: 992px) {
+    .nav-links a { font-size: 30px; }
+    .navbar .logo {
+    height: 100px;
+    width: 250px;
+    }
+    .navbar {
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.95); 
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-in-out; 
+        z-index: 99; 
+    }
+    .nav-links li {
+        margin: 15px 0;
+    }
+    .nav-links a {
+        font-size: 32px; 
+    }
+
+    .nav-links.active {
+        transform: translateX(0); 
+    }
+
+    .menu-hamburguesa {
+        display: block; 
+        background-color: #f1c40f; 
+        border: none;
+        border-radius: 50%; 
+        width: 60px;
+        height: 60px;
+        cursor: pointer !important;
+        padding: 10px;
+        position: relative; 
+        z-index: 100; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .menu-hamburguesa div {
+        width: 100%;
+        height: 4px;
+        background-color: #333; 
+        margin: 6px auto;
+        border-radius: 2px;
+    }
+    .banner{
+        height: 45vh;
+    }
+    .content-banner{
+        width: 20rem;
+        margin: 0 auto;
+        padding: 2rem 15px;
+    }
+    h1 {
+        font-size: 24px; 
+        font-weight: 450;
+    }
+    h2 {
+        font-size: 19px; 
+        line-height: 1.4;
+    }
+    .card{
+        margin-top: 10px !important;
+        margin-bottom: 30px !important;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .tipobenetext{
+        font-size: 14px;
+    }
+    .h2conamarillo{
+        font-size: 19px; 
+    }
+    .btn{
+        background-color: #f1c40f;
+        color: #000000;
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .flecha{
+        width: 25px;
+        height: 25px;
+    }
+.emple .row {
+        justify-content: center;
+        align-items: center;
+    }
+.img-empleado{
+    width: 136.49px;
+    height: 140.54px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondogris{
+    width: 150px;
+    height: 151.8px; 
+    margin: 0 auto;
+    padding-top: 5px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-shrink: 0;
+    margin-bottom: 15px;
+    }
+.MES {
+        font-weight: 350;
+        font-size: 20px;
+        margin-bottom: 10px;
+        justify-content: center;
+        text-align: center;
+        width: auto; 
+        margin: 0 auto;
+    }
+.empleadomes .h1congris {
+    margin-top: 20px;
+    }
+    .emple {
+        padding-top: 20px; 
+        padding-bottom: 20px;
+    }
+    .Felicitacion {
+        font-size: 14px;
+        justify-content: center;
+        text-align: center;
+        width: 100%; 
+    }
+    .rating {
+        margin: 0 auto;
+    }
+    .calificacion{
+        margin: 0 auto;
+    }
+    .footer-text{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footer-button{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        font-size: 12px !important;
+        width: 115px;
+    }
+    .social-icons{
+        margin-top: 15px;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 15px;
+    }
+}

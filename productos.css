@@ -1,0 +1,387 @@
+body{
+    background-color: #373737;
+    font-family: "Montserrat", sans-serif;
+}
+    .h1conamarillo, .h2conamarillo { color: #f1c40f; }
+    h1, h2, p, ul { color: #ffffff; }
+    .h1congris { 
+        margin-top: 15px;
+        color: #232323;}
+    .navbar .estoy { color: #f1c40f !important; }
+h1{
+    font-size: 36px;
+    font-weight: 590;
+}
+h2{
+    font-size: 20px;
+    font-weight: 490;
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #373737;
+    height: 120px;
+    padding: 0 60px;
+}
+.navbar a:first-child { 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar .logo {
+    height: 120px;
+    width: auto;
+}
+.navbar .estoy { color: #f1c40f !important; }
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 45px;
+}
+
+.nav-links li {
+    margin: 0; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.menu-hamburguesa {
+    display: none;
+}
+
+.banner{
+    background-image: url('../imagenes/image1.png');
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+}
+.content-banner {
+    max-width: 79rem;
+    margin: 0 auto;
+    padding: 12rem 0;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+.btn{
+    width: 213px;
+    height: 51px;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+}
+.btn-adquirir{
+    background-color: #f1c40f !important;
+    color: #000000 !important;
+    width: 167px !important; 
+    height: 40px !important;
+    border-radius: 16px !important; 
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.btn-adquirir:hover{
+    background-color: #f1c40f;
+    color: #000000;
+    width: 210px !important;
+    height: 51px !important;
+    border-radius: 16px !important; 
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+    margin-left: 35px !important;
+    margin-bottom: 5px !important;
+}
+
+.categorias{
+    text-align: center;
+}
+.filas{
+    margin-top: 15px;
+    display: flex !important;
+    justify-content: center;
+    gap: 25px;
+}
+.cat{
+    background-color: #373737;
+    display: flex;
+    border: 0;
+    margin-bottom: 20px;
+    width: 399px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    text-align: center;
+}
+.imgcard{
+    border: 5px solid #f1c40f;
+    display: flex;
+    width: 391px;
+    height: 367px;
+    border-radius: 45px;
+    margin-right: 1px;
+    align-items: center;
+    z-index: 0;
+}
+.seccion-amarrilla{
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #f1c40f;
+    padding-bottom: 55px;
+}
+.filadestacado{
+    margin-top: 25px;
+    display: flex !important;
+    justify-content: center;
+    gap: 35px;
+}
+.destacados{
+    display: flex;
+    background-color: #373737;
+    width: 390px;
+    justify-content: center;
+    border-radius: 16px;
+    align-items: center;
+}
+.imgdestacado{
+    height: 300px;
+}
+.btn-mas{
+    background-color: #f1c40f;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 16px;
+    text-align: center;
+    width: 95px;
+    margin-bottom: 10px;
+}
+.contenido-marcas{
+    background-color: #ffffff;
+}
+.titulo-marcas{
+    color: #000000;
+}
+.footer-custom {
+    background-color: #232323 !important; 
+    padding: 20px 60px !important; 
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    align-items: center;
+}
+
+.footer-button {
+    background-color: #f1c40f;
+    color: #000000; 
+    padding: 15px 35px !important;
+    border-radius: 16px !important; 
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: none;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+}
+.footerbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+.footer-icon {
+    display: block;
+    font-size: 2.2rem; 
+    color: #f1c40f; 
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media (max-width:768px) {
+        .nav-links a { font-size: 30px; }
+    .navbar .logo {
+    height: 100px;
+    width: 250px;
+    }
+    .navbar {
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.95); 
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-in-out; 
+        z-index: 99; 
+    }
+    .nav-links li {
+        margin: 15px 0;
+    }
+    .nav-links a {
+        font-size: 32px; 
+    }
+
+    .nav-links.active {
+        transform: translateX(0); 
+    }
+
+    .menu-hamburguesa {
+        display: block; 
+        background-color: #f1c40f; 
+        border: none;
+        border-radius: 50%; 
+        width: 60px;
+        height: 60px;
+        cursor: pointer !important;
+        padding: 10px;
+        position: relative; 
+        z-index: 100; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .menu-hamburguesa div {
+        width: 100%;
+        height: 4px;
+        background-color: #333; 
+        margin: 6px auto;
+        border-radius: 2px;
+    }
+        .banner{
+        height: 35vh;
+    }
+    .content-banner{
+        width: 20rem;
+        margin: 0 auto;
+        padding: 2rem 15px;
+    }
+    h1 {
+        font-size: 24px; 
+        font-weight: 450;
+    }
+    h2 {
+        font-size: 19px; 
+        line-height: 1.4;
+    }
+    .h2conamarillo{
+        font-size: 19px; 
+    }
+    p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .filas{
+        gap: 0px !important;
+        justify-content: center;
+    }
+    .cat{
+        width: 247px !important;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .imgcard{
+        width: 242px;
+        height: fit-content;
+    }
+    .imgdestacado{
+        height: 185px;
+    }
+    .destacados{
+        width: 247px;
+        height: fit-content;
+    }
+    .btn-adquirir{
+        width: 155px !important;
+    }
+    .btn-mas{
+        display: flex;
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo-marcas{
+        font-size: 24px !important;
+    }
+    .marca-img{
+        width: 70px;
+    }
+    .seccion-amarrilla{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .filadestacado{
+        margin-top: 20px;
+    }
+    .footer-text{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footer-button{
+        align-items: center !important;
+        text-align: center !important;
+        font-size: 12px !important;
+        width: 115px !important;
+        margin: 0 auto !important;
+    }
+    .social-icons{
+        margin-top: 15px;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 15px;
+    }
+}
