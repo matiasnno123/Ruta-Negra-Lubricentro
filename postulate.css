@@ -372,7 +372,7 @@ h4{
         margin: 15px 0;
     }
     .nav-links a {
-        font-size: 32px; 
+        font-size: 18px; 
     }
 
     .nav-links.active {
@@ -522,4 +522,5 @@ h4{
         gap: 30px;
         margin-bottom: 15px;
     }
+
 }
