@@ -1,0 +1,354 @@
+body{
+    background-color: #373737;
+    font-family: "Montserrat" ,sans-serif;
+}
+
+ h1, h2, p, ul { color: #ffffff; }
+h1{
+    font-size: 36px;
+    font-weight: 590;
+}
+h2{
+    font-size: 20px;
+    font-weight: 490;
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 18px;
+    color: #f1c40f;
+    font-weight: 500;
+}
+span{
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #373737;
+    height: 120px;
+    padding: 0 60px;
+}
+.titulocontacto{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar a:first-child { 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar .logo {
+    height: 120px;
+    width: auto;
+}
+.navbar .estoy { color: #f1c40f !important; }
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 45px;
+}
+
+.nav-links li {
+    margin: 0; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600; 
+}
+.menu-hamburguesa {
+    display: none;
+}
+.banner{
+    background-image: url('imagenes/auto.jpeg');
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+}
+.content-banner{
+    max-width: 79rem;
+    margin: 0 auto;
+    padding: 6rem 0;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    color: #ffffff;
+}
+.mensaje{
+    height: 250px;
+    margin-bottom: 15px;
+}
+.horario{
+    margin-top: 15px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+.horario-a{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.mapa{
+    
+    border-radius: 16px;
+    border-color: #f1c40f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 550px;
+    border: 2px solid #f1c40f !important;
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:992px){
+.nav-links a { font-size: 18px; }
+    .navbar .logo {
+    height: 100px;
+    width: 250px;
+    }
+    .navbar {
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.95); 
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-in-out; 
+        z-index: 99; 
+    }
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+
+    .nav-links.active {
+        transform: translateX(0); 
+    }
+
+    .menu-hamburguesa {
+        display: block; 
+        background-color: #f1c40f; 
+        border: none;
+        border-radius: 50%; 
+        width: 60px;
+        height: 60px;
+        cursor: pointer !important;
+        padding: 10px;
+        position: relative; 
+        z-index: 100; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .menu-hamburguesa div {
+        width: 100%;
+        height: 4px;
+        background-color: #333; 
+        margin: 6px auto;
+        border-radius: 2px;
+    }
+    .mi-formulario{
+        margin-bottom: 20px !important;
+    }
+    .mapa{
+        width: 398px;
+    }
+         .banner{
+        height: 35vh;
+    }
+    .content-banner{
+        width: 20rem;
+        margin: 0 auto;
+        padding: 10rem 15px;
+    }
+    h1 {
+        font-size: 24px; 
+        font-weight: 450;
+    }
+    h2 {
+        font-size: 19px; 
+        line-height: 1.4;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .horario{
+        font-size: 19px !important; 
+        line-height: 1.4;
+    }
+    .horario-a{
+        font-size: 15px;
+    }
+    .span{
+        font-size: 14px !important;
+    }
+
+}
+
+.mi-formulario{
+    background-color: #272727;
+    padding: 25px;
+    border-radius: 16px;
+    max-width: 560px ;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;                  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mi-formulario .form-control::placeholder {
+    color: #ffffff;
+}
+.mi-formulario .btn {
+    background-color: #f1c40f;
+    color: black;
+    max-width: 150px;
+    border: none;
+    border-radius: 16px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background-color: #373737;
+
+}
+
+
+.Contactos{
+   color: #ffffff;
+   max-width: 560px;
+   border-radius: 16px;
+   padding: 20px;
+   text-align: center;
+   background-color: #272727;
+   border-radius: 16px;
+   margin-bottom: auto;
+
+}
+.Contactos h3 {
+    text-align: center;
+}
+.bi-telephone{
+    color: #f1c40f;
+    text-align: center;
+    font-size: 15px;
+}
+.bi-whatsapp{
+    color: #f1c40f;
+    text-align: center;
+    font-size: 15px;
+}
+.bi-envelope{
+    color: #f1c40f;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-custom {
+    margin-top: 15px;
+    background-color: #232323 !important; 
+    padding: 20px 60px !important; 
+    justify-content: center;
+    color: #ffffff;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.footer-button {
+    background-color: #f1c40f;
+    color: #000000; 
+    padding: 15px 35px !important;
+    border-radius: 16px !important; 
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: none;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+}
+.footerbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+.footer-icon {
+    display: block;
+    font-size: 2.2rem; 
+    color: #f1c40f; 
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media(max-width:992px){
+    .footer-text{
+        display: flex;
+        color: #ffffff;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footerbot{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-button{
+        display: flex;
+        background-color: #f1c40f;
+        color: #000000;
+        width: 150px !important;
+        height: 30px;
+        font-size: 12px !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons{
+        margin-top: 15px;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 15px;
+    }
+}
