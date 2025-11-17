@@ -1,0 +1,301 @@
+body{
+    background-color: #373737;
+    font-family: "Montserrat", sans-serif;
+}
+.h1conamarillo, .h2conamarillo { color: #f1c40f; }
+    h1, h2, p, ul { color: #ffffff; }
+    .h1congris { 
+        margin-top: 15px;
+        color: #232323;}
+
+h1{
+    font-size: 36px;
+    font-weight: 590;
+}
+h2{
+    font-size: 20px;
+    font-weight: 490;
+}
+p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #373737;
+    height: 120px;
+    padding: 0 60px;
+}
+
+
+.navbar a:first-child { 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar .logo {
+    height: 120px;
+    width: auto;
+}
+.navbar .estoy { color: #f1c40f !important; }
+.nav-links {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex; 
+    gap: 45px !important;
+}
+
+.nav-links li {
+    margin: 0; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px !important;
+    font-weight: 600 !important; 
+}
+.menu-hamburguesa {
+    display: none;
+}
+
+@media(max-width:992px) {
+.nav-links a { font-size: 18px; }
+    h1 {
+        font-size: 24px; 
+        font-weight: 450;
+    }
+    h2 {
+        font-size: 19px; 
+        line-height: 1.4;
+    }
+     p{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .navbar .logo {
+    height: 100px;
+    width: 250px;
+    }
+    .navbar {
+        height: 100px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column; 
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.95); 
+        align-items: center;
+        justify-content: center; 
+        padding: 0;
+        transform: translateX(100%); 
+        transition: transform 0.3s ease-in-out; 
+        z-index: 99; 
+    }
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+
+    .nav-links.active {
+        transform: translateX(0); 
+    }
+
+    .menu-hamburguesa {
+        display: block; 
+        background-color: #f1c40f; 
+        border: none;
+        border-radius: 50%; 
+        width: 60px;
+        height: 60px;
+        cursor: pointer !important;
+        padding: 10px;
+        position: relative; 
+        z-index: 100; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .menu-hamburguesa div {
+        width: 100%;
+        height: 4px;
+        background-color: #333; 
+        margin: 6px auto;
+        border-radius: 2px;
+    }
+        .footer-text{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footerbot{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-button{
+        display: flex;
+        background-color: #f1c40f;
+        color: #000000;
+        width: 150px !important;
+        height: 30px;
+        font-size: 12px !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons{
+        margin-top: 15px !important;
+        justify-content: center !important;
+        gap: 30px !important;
+        margin-bottom: 15px !important; 
+    }
+}
+.banner{
+    background-image: url('banner.png');
+    height: 29rem;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+    
+}
+   .content-banner {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 12rem 0;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+.titulonosotros {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ 
+.container-nosotros {
+    margin-top: 30px;
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #232323;
+    border-radius: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Monserrat',sans-serif;
+    font-size: medium;
+}
+.card{
+    background-color: #232323;
+    color: #ffffff;
+    font-family: 'Monserrat', sans-serif;
+    padding: 20px;
+    border-radius: 16px;
+    height: 450px;
+    text-align: center;
+}
+h4{
+    color: #f1c40f;
+    font-family: 'Monserrat', sans-serif;
+}
+@media(max-width:992px){
+    .footer-text{
+        display: flex;
+        color: #ffffff;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footerbot{
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-button{
+        display: flex;
+        background-color: #f1c40f;
+        color: #000000;
+        width: 150px !important;
+        height: 30px;
+        font-size: 12px !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons{
+        margin-top: 15px;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 15px;
+    }
+}
+.footer-custom {
+    background-color: #232323 !important; 
+    padding: 20px 60px !important; 
+    justify-content: center;
+    color: #ffffff;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-button {
+    background-color: #f1c40f;
+    color: #000000; 
+    padding: 15px 35px !important;
+    border-radius: 16px !important; 
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: none;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+}
+.footerbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button:hover{
+    background-color: #f1c40f;
+    color: #000000;
+}
+.footer-icon {
+    display: block;
+    font-size: 2.2rem; 
+    color: #f1c40f; 
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icoauto{
+    font-size: 36px;
+    color: #f1c40f;
+}

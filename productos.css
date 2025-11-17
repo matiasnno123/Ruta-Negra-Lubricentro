@@ -178,6 +178,25 @@ h4{
 }
 .contenido-marcas{
     background-color: #ffffff;
+    padding: 60px 0;
+}
+.logos-slide {
+    padding: 20px 0;
+    gap: 30px; 
+}
+.marca-img {
+    max-height: 80px; 
+    max-width: 150px;
+    object-fit: contain;
+    filter: none; 
+    opacity: 1; 
+    transition: transform 0.3s ease;
+}
+
+.marca-img:hover {
+    filter: none; 
+    opacity: 1;
+    transform: scale(1.05); 
 }
 .titulo-marcas{
     color: #000000;
@@ -224,7 +243,6 @@ h4{
     align-items: center;
 }
 @media (max-width:992px) {
-    .nav-links a { font-size: 30px; }
     .navbar .logo {
     height: 100px;
     width: 250px;
@@ -329,7 +347,7 @@ h4{
 
     .btn-mas{
         display: flex;
-        width: 60px;
+        width: 90px;
         height: 25px;
         font-size: 12px;
         text-align: center;
@@ -341,6 +359,10 @@ h4{
     }
     .marca-img{
         width: 70px;
+    }
+    .logos-slide {
+        padding: 10px 0;
+        gap: 10px !important; 
     }
     .seccion-amarrilla{
         padding-top: 10px;
