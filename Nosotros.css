@@ -242,7 +242,7 @@ h4{
     color: #000000; 
     padding: 15px 35px !important;
     border-radius: 16px !important; 
-    font-size: 18px !important;
+    font-size: 18px;
     font-weight: 600 !important;
     border: none;
     align-items: center !important;
@@ -272,3 +272,4 @@ h4{
     font-size: 36px;
     color: #f1c40f;
 }
+
