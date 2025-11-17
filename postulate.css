@@ -17,7 +17,7 @@ h2{
     font-weight: 490;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 400;
 }
@@ -419,11 +419,11 @@ h4{
         margin-bottom: 30px !important;
     }
     p{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 300;
     }
     .tipobenetext{
-        font-size: 14px;
+        font-size: 16px;
     }
     .h2conamarillo{
         font-size: 19px; 
@@ -470,7 +470,7 @@ h4{
 .MES {
         font-weight: 350;
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 5% !important;
         justify-content: center;
         text-align: center;
         width: auto; 
@@ -484,8 +484,11 @@ h4{
         padding-bottom: 20px;
     }
     .Felicitacion {
-        font-size: 14px;
+        font-size: 16px;
+        display: flex;
+        margin: 0 auto;
         justify-content: center;
+        align-items: center;
         text-align: center;
         width: 100%; 
     }
@@ -496,6 +499,7 @@ h4{
         margin: 0 auto;
     }
     .footer-text{
+        font-size: 12px !important;
         display: flex;
         margin: 0 auto;
         justify-content: center;

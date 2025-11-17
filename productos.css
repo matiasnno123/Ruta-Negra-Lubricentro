@@ -363,7 +363,8 @@ h4{
     .filadestacado{
         margin-top: 20px;
     }
-    .footer-text{
+   .footer-text{
+        font-size: 12px !important;
         display: flex;
         margin: 0 auto;
         justify-content: center;
