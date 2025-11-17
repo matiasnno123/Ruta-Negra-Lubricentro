@@ -81,12 +81,11 @@ span{
     background-size: cover;
 }
 .content-banner{
-    max-width: 79rem;
+    max-width: 80rem;
     margin: 0 auto;
-    padding: 6rem 0;
+    padding: 15rem 0;
     letter-spacing: 1px;
     line-height: 1.2em;
-    color: #ffffff;
 }
 .mensaje{
     height: 250px;
