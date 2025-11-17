@@ -252,17 +252,14 @@
             const isExpanded = navLinks.classList.contains('active');
             menuButton.setAttribute('aria-expanded', isExpanded);
         });
+                document.getElementById('contactoboton').addEventListener('click', function() {
+        window.location.href = 'Contacto.html';
+        });
           const myModal = document.getElementById('myModal')
         const myInput = document.getElementById('myInput')
 
         myModal.addEventListener('shown.bs.modal', () => {
         myInput.focus()
         })
-        document.getElementById('contactoboton').addEventListener('click', function() {
-  window.location.href = 'Contacto.html';
-});
-
 </script>
-    
-
 </html>
