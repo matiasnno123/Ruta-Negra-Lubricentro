@@ -16,7 +16,7 @@ h2{
     font-weight: 490;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 400;
     
@@ -395,4 +395,5 @@ h4{
         gap: 30px;
         margin-bottom: 15px;
     }
+
 }
