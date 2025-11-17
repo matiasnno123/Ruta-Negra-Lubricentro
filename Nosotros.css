@@ -80,7 +80,7 @@ h4{
         line-height: 1.4;
     }
      p{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 300;
     }
     .navbar .logo {
@@ -143,6 +143,7 @@ h4{
         justify-content: center;
         align-items: center;
         margin-bottom: 15px;
+        font-size: 12px;
     }
     .footerbot{
         display: flex;
@@ -169,7 +170,7 @@ h4{
         margin-bottom: 15px !important; 
     }
     .card{
-        height: 250px !important;
+        height: 350px !important;
     }
     .banner{
         height: 20rem !important;
@@ -177,7 +178,7 @@ h4{
 }
 .banner{
     background-image: url('banner.png');
-    height: 29rem;
+    height: 35rem;
     background-size: cover;
     background-position: center;
     margin-bottom: 25px;
@@ -199,17 +200,17 @@ h4{
     margin-bottom: 15px;
 }
  
-.container-nosotros {
-    margin-top: 30px;
-    max-width: 800px;
+.nosotros {
+    margin-top: 20px;
+    max-width: 90%;
     padding: 20px;
     margin: 0 auto;
-    background-color: #232323;
-    border-radius: 16px;
     color: #ffffff;
-    text-align: center;
+    text-align: left;
     font-family: 'Monserrat',sans-serif;
-    font-size: medium;
+}
+.ruta-amarillo{
+    color: #f1c40f;
 }
 .card{
     background-color: #232323;
@@ -219,6 +220,9 @@ h4{
     border-radius: 16px;
     height: 450px;
     text-align: center;
+}
+.tu-camino{
+    color: #f1c40f;
 }
 h4{
     color: #f1c40f;

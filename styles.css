@@ -311,7 +311,8 @@ h4{
     z-index: 3;
     font-size: 36px;
     font-weight: 500;
-    
+    margin-top: 15px;
+    margin-left: 20rem;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -491,7 +492,7 @@ h4{
         font-size: 19px !important; 
     }
     p{
-        font-size: 12px !important;
+        font-size: 16px !important;
         font-weight: 300 !important;
     }
     .button{
@@ -499,6 +500,9 @@ h4{
         width: fit-content !important;
         font-weight: 500 !important;
         
+    }
+    .titulo-hero-servicios{
+        margin-left: 5rem;
     }
 
     
