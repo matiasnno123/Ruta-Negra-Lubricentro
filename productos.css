@@ -16,9 +16,10 @@ h2{
     font-weight: 490;
 }
 p{
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 400;
+    
 }
 
 h4{
@@ -81,35 +82,23 @@ h4{
     line-height: 1.2em;
 }
 
-.btn-adquirir{
-    background-color: #f1c40f !important;
-    color: #000000 !important;
-    width: 167px !important; 
-    height: 40px !important;
-    border-radius: 16px !important; 
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    text-decoration: none; 
-    margin-left: 55px;
-    margin-top: 15px;
+.btn-adquirir {
+    background-color: #F1C40F;
+    color: #000000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
 }
 .btn-adquirir:hover{
-    background-color: #f1c40f;
-    color: #000000;
-    width: 210px !important;
-    height: 51px !important;
-    border-radius: 16px !important; 
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    text-decoration: none; 
-    margin-left: 35px !important;
-    margin-bottom: 5px !important;
+    background-color: #e0b300; 
+    color: #000000; 
 }
 
 .categorias{
@@ -120,6 +109,9 @@ h4{
     display: flex !important;
     justify-content: center;
     gap: 25px;
+}
+.textodecard{
+    margin-top: 5%;
 }
 .cat{
     background-color: #373737;
@@ -319,7 +311,7 @@ h4{
         font-size: 19px; 
     }
     p{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 300;
     }
     .filas{
